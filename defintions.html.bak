@@ -1,23 +1,22 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title> Home Page </title>
+<title> Definitions </title>
 <link rel="stylesheet" href="stylesheet.css">
 <meta charset="UTF-8"/>
 </head>
-
 <div class="nav">
 
 <ul class="nav">
 
 	<li class ="nav"> 
-	<a href="index.HTML">Home</a><
+	<a href="index.HTML">Home</a></li>
 	<a href="defintions.HTML">Defintions</a>
 	<a href="questions.HTML">Questions</a>
 	</li>
 </ul>
 </div>
-<h1> Welcome to HTML/CSS and Bootstrap 5 </h1>
+<h1> This is the Definition Page</h1>
 <body>
 
 </body>

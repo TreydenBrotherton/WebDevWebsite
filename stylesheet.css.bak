@@ -1,0 +1,16 @@
+ul.nav
+{
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 5;
+	border-style: solid;
+	border-width: 2px;
+	border-spacing: 2px;
+}
+li.nav
+{
+	font-size: 25px;
+	display: inline;
+}
+	
