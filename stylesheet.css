@@ -7,6 +7,7 @@
 .index
 {
 	padding-top: 50px;
+	padding-left: 25px;
 }
 .index-body
 {
@@ -18,4 +19,14 @@
 h1.index-header{
 	font-size: 55px;
 	padding-bottom: 25px;
+}
+.contacts
+{
+	padding-top: 50px;
+	padding-left: 25px;
+	font-size: 20px;
+}
+.contact-header
+{
+	font-size: 50px;
 }

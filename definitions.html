@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   <link href="stylesheet.css" rel="stylesheet">
 </head>
 <body>
@@ -23,11 +24,114 @@
 	</li>
 </ul>
 	
-<div class="container-fluid">
-  <h1>My First Bootstrap Page</h1>
-  <p>This part is inside a .container class.</p>
-  <p>The .container class provides a responsive fixed width container.</p>
-</div>
+<div id="accordion">
+	<h1><br>Group 1 Definitions</br></h1>
+  <div class="card">
+    <div class="card-header">
+      <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+        Authentication and web security.
+      </a>
+    </div>
+    <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        Hypertext transfer protocol (HTTP).
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+       Session management.
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+       Stateless programming.
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+
+<h1><br>Group 2 Definitions</br></h1>
+<div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+      The three major programming control structures.
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+      Hypertext markup language (HTML) and markup languages.
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+       Cascading style sheets (CSS).
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+  
+   <div class="card">
+    <div class="card-header">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+       Syntax and uses of programming languages.
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+  
+</div> 
 
 </body>
 </html> 
