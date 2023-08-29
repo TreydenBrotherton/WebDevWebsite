@@ -68,11 +68,11 @@
   
   <div class="card">
     <div class="card-header">
-      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseFour">
+      <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
        Stateless programming.
       </a>
     </div>
-    <div id="collapseFour" class="collapse" data-bs-parent="#accordion">
+    <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
       <div class="card-body">
         A stateless app is an application program that does not save client data generated in one session for use in the next session with that client.
       </div>
